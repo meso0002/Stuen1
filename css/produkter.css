@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  background-color: #d9e7c3;
+  color: #000;
+}
+
+.navbar {
+  background-color: #1a321d;
+  padding: 1em 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.banner {
+  width: 100%;
+  display: block;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.brand-section h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.brand-section h2 {
+  margin-top: 2rem;
+}
+
+.brand-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.brand-text {
+  flex: 1;
+}
+
+.brand-image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.brand-benefits {
+  background-color: #b9c8a7;
+  padding: 1rem;
+  border: 1px solid #1a321d;
+
+  margin-bottom: 100px;
+  list-style-type: none;
+}
+
+.brand-benefits li {
+  margin-bottom: 0.5rem;
+}
+
+.campaign-note {
+  margin-top: 1rem;
+}
+
+.product-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.product-gallery img {
+  border-radius: 8px;
+  width: calc(50% - 0.5em); /*ligger billederne ved siden af hinanden*/
+}
+
+footer {
+  background-color: #1a321d;
+  color: #fff;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-content h4 {
+  margin-bottom: 1rem;
+}
+
+.footer-content p {
+  margin: 0.3rem 0;
+}
+
+.footer-content span {
+  float: right;
+}
+
+.contact a {
+  color: #a3ffe4;
+  text-decoration: none;
+}
+
+.book-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.2rem;
+  background-color: #00ff5f;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #000;
+  font-weight: bold;
+}
