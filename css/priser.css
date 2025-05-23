@@ -47,7 +47,7 @@ li {
 .saksanimation {
   width: 100%;
   height: 35px;
-  background-image: url("/images/Group 10.svg");
+  background-image: url("/IMG/Group\ 10.svg");
   background-repeat: no-repeat;
   background-size: 90px; /* or 'cover' depending on desired size */
   background-position: 0 0;
@@ -67,6 +67,12 @@ li {
   100% {
     background-position: 100% 0;
   }
+}
+
+
+.CTA img {
+  height: auto;
+  max-height: 70px;
 }
 
 @media (max-width: 1100px) {

@@ -4,12 +4,12 @@
 }
 @font-face {
   font-family: font2;
-  src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+  src: url(/fonts/PressStart2P-Regular.ttf);
 }
 
 @font-face {
   font-family: font3;
-  src: url(fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+  src: url(/fonts/Pixelify_Sans/);
 }
 
 img {
@@ -47,6 +47,7 @@ header {
 main {
   font-family: font3;
   background-color: #d0dab8;
+  padding-bottom: 30px;
 }
 
 h1 {
@@ -70,9 +71,15 @@ footer {
 }
 
 .footerindhold > div {
-  width: 45%;
 }
 
+.kontaktoplysninger {
+  width: 29%;
+}
+
+.åbningstider {
+  width: 40%;
+}
 .footerindhold h2 {
   color: #caffae;
 }
