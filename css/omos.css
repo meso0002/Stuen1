@@ -12,8 +12,8 @@
 
 /* Grundopsætning */
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 body {
   margin: 0;
@@ -26,9 +26,9 @@ main {
   padding-bottom: 2em;
 }
 
-.logo{
-    width: 60px;
-    margin-left: 15px;
+.logo {
+  width: 60px;
+  margin-left: 15px;
 }
 
 /* Navigation */
@@ -58,7 +58,8 @@ main {
 }
 
 /* Sektion 1 - tekst + billede */
-.combo1, .combo2 {
+.combo1,
+.combo2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -67,12 +68,14 @@ main {
   padding: 2em;
 }
 
-.combo1 img, .combo2 img {
+.combo1 img,
+.combo2 img {
   width: 300px;
   max-width: 100%;
 }
 
-.tekst1, .tekst2 {
+.tekst1,
+.tekst2 {
   max-width: 500px;
 }
 
@@ -101,7 +104,6 @@ main {
   justify-content: center;
 }
 
-
 .person {
   max-width: 250px;
 }
@@ -123,7 +125,7 @@ main {
 }
 
 /* Footer */
-.footer {
+/* .footer {
   background-color: #1c2e1b;
   color: white;
   display: flex;
@@ -145,7 +147,70 @@ main {
   float: right;
 }*/
 
-.footer a {
+/* .footer a {
   color: white;
   text-decoration: underline;
+} */
+
+footer {
+  background-color: #1b361f;
+}
+
+.footerindhold {
+  background-color: #1b361f;
+  color: #caffae;
+  border: #3cc048;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 30px;
+}
+
+.footerindhold > div {
+  width: 45%;
+}
+
+.footerindhold h2 {
+  color: #caffae;
+}
+
+.footerindhold ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.allfooter {
+  font-family: font3;
+  border: #3cc048 solid 7px;
+  border-radius: 8px;
+}
+
+footer {
+  border: #3cc048 solid 6px;
+  padding: 15px;
+  border-radius: 7px;
+  background-color: #1b361f;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: #1b361f;
+}
+
+.icons img {
+  height: 30px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.CTA img {
+  height: auto;
+  max-height: 50px;
 }
