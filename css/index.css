@@ -58,7 +58,11 @@ header li {
 }
 
 /* Sektion: Personalet */
-section {
+.info,
+.vel,
+.h1,
+.oddi,
+.ivan {
   padding: 3rem 1rem;
   text-align: center;
 }
@@ -116,7 +120,6 @@ h2 {
 }
 
 .h1 {
-  margin-bottom: 115px;
   margin-top: 40px;
 }
 
@@ -149,7 +152,7 @@ h2 {
 }
 
 /* Footer */
-footer {
+/* footer {
   background-color: #1a321d;
   color: #fff;
   padding: 2rem;
@@ -172,9 +175,9 @@ footer {
 
 .footer-content span {
   float: right;
-}
+} */
 
-.contact a {
+/* .contact a {
   color: #a3ffe4;
   text-decoration: none;
 }
@@ -188,4 +191,67 @@ footer {
   text-decoration: none;
   border: 2px solid #000;
   font-weight: bold;
+} */
+
+footer {
+  background-color: #1b361f;
+}
+
+.footerindhold {
+  background-color: #1b361f;
+  color: #caffae;
+  border: #3cc048;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 30px;
+}
+
+.footerindhold > div {
+  width: 45%;
+}
+
+.footerindhold h2 {
+  color: #caffae;
+}
+
+.footerindhold ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.allfooter {
+  font-family: font3;
+  border: #3cc048 solid 7px;
+  border-radius: 8px;
+}
+
+footer {
+  border: #3cc048 solid 6px;
+  padding: 15px;
+  border-radius: 7px;
+  background-color: #1b361f;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 30px;
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: #1b361f;
+}
+
+.icons img {
+  height: 30px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.CTA img {
+  height: auto;
+  max-height: 50px;
 }
