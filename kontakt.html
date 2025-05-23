@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/kontakt.css" />
+    <meta name="robots" content="noindex" />
+    <title>Stuen</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a class="index" href="index.html">Logo</a></li>
+          <li><a class="priser" href="priser.html">Priser</a></li>
+          <li><a class="personalet" href="personalet.html">Personalet</a></li>
+          <li><a class="produkter" href="produkter.html">Produkter</a></li>
+          <li><a class="kontakt" href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>KONTAKT FRISØRSALON STUEN</h1>
+      <div class="indhold">
+        <img class="stuenudefra" src="/img/stuen1-1.webp" alt="frisørsalon udefra" />
+        <dl>
+          <dt>Adresse:</dt>
+          <dd>Nørrebrogade 102, kltv</dd>
+          <dd>2200 København N</dd>
+          <dt>Tlf.:</dt>
+          <dd>55250006</dd>
+          <dt>E-mail:</dt>
+          <dd>stuensalon@gmail.com</dd>
+        </dl>
+      </div>
+
+      <div class="map">
+        <gmp-map
+          center="55.693176672735795,12.551243126788762"
+          zoom="15"
+          map-id="stuen"
+          style="height: 400px"
+          ><gmp-advanced-marker
+            position="55.693176672735795,12.551243126788762"
+            title="Stuen"
+          ></gmp-advanced-marker>
+        </gmp-map>
+
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuplJDoJXUlmH7u8biYz_Hp4Xu36_PlU0&libraries=maps,marker"
+          defer
+        ></script>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
