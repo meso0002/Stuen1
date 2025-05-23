@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #111;
+  line-height: 1.6;
+  background-color: #d9e7c3;
+}
+
+/* Header */
+/* header {
+  background-color: #1a321d;
+  padding: 1rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+header li {
+  color: #f3f5ec;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+} */
+
+.navbar {
+  background-color: #1a321d;
+  padding: 1em 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* Hero */
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Sektion: Personalet */
+section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.combo {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.combo .image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  margin-bottom: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #43db2f, 0 0 40px #43db2f, 0 0 50px #43db2f;
+}
+
+.combo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.combo p {
+  max-width: 300px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+/* Info tekst sektion */
+.info {
+  background-color: #d9e7c3;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.h1 {
+  margin-bottom: 115px;
+  margin-top: 40px;
+}
+
+/* Galleri */
+.galleri {
+  background-color: #b9c8a7;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.img-galleri {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.img-galleri img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.instagram {
+  font-weight: bold;
+  color: #1a321d;
+}
+
+/* Footer */
+footer {
+  background-color: #1a321d;
+  color: #fff;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-content h4 {
+  margin-bottom: 1rem;
+}
+
+.footer-content p {
+  margin: 0.3rem 0;
+}
+
+.footer-content span {
+  float: right;
+}
+
+.contact a {
+  color: #a3ffe4;
+  text-decoration: none;
+}
+
+.book-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.2rem;
+  background-color: #3cc048;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #000;
+  font-weight: bold;
+}
