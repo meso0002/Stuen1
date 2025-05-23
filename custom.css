@@ -1,0 +1,89 @@
+@font-face {
+  font-family: font1;
+  src: url(/fonts/Pixelify_Sans/);
+}
+@font-face {
+  font-family: font2;
+  src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+img {
+  width: 100%;
+}
+
+.h1 {
+  text-align: center;
+}
+header {
+  background-color: #1b361f;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  background-color: #1b361f;
+  font-family: font2, sans-serif;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #caffae;
+  font-family: "font2", sans-serif;
+  font-size: 13px;
+}
+
+main {
+  font-family: font3;
+  background-color: #d0dab8;
+}
+
+h1 {
+  font-family: font3;
+  font: bold;
+  font-size: 62;
+}
+
+footer {
+  background-color: #1b361f;
+}
+
+.footerindhold {
+  background-color: #1b361f;
+  color: #caffae;
+  border: #3cc048;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 30px;
+}
+
+.footerindhold > div {
+  width: 45%;
+}
+
+.footerindhold h2 {
+  color: #caffae;
+}
+
+.footerindhold ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.allfooter {
+  font-family: font3;
+  border: #3cc048 solid 7px;
+  border-radius: 8px;
+}
