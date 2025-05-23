@@ -1,0 +1,151 @@
+/*body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B1C483;
+}
+
+.navbar{
+    background-color: #1B361F;
+    padding: 1em 0;
+    text-align: center;
+}*/
+
+/* Grundopsætning */
+
+img{
+    width: 100%;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d9e7c3;
+  color: #1c1c1c;
+}
+
+main {
+  padding-bottom: 2em;
+}
+
+.logo{
+    width: 60px;
+    margin-left: 15px;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #1c2e1b;
+  padding: 1em 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.book-button {
+  width: 100px;
+}
+
+/* Sektion 1 - tekst + billede */
+.combo1, .combo2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+
+.combo1 img, .combo2 img {
+  width: 300px;
+  max-width: 100%;
+}
+
+.tekst1, .tekst2 {
+  max-width: 500px;
+}
+
+.mødos {
+  margin-bottom: 230px;
+}
+
+.hvs {
+  margin-bottom: 200px;
+}
+
+/* Personale-sektion */
+.personale {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  padding: 3em 1em;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.gizmo {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.person {
+  max-width: 250px;
+}
+
+.img_cirkel {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1em;
+  border: 5px solid limegreen;
+  box-shadow: 0 0 20px #00ff00;
+}
+
+.img_cirkel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer {
+  background-color: #1c2e1b;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.footer h4 {
+  margin-bottom: 1em;
+}
+
+.footer p {
+  margin: 0.3em 0;
+}
+
+.footer span {
+  float: right;
+}*/
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
