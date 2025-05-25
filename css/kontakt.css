@@ -32,6 +32,7 @@ dl {
   .indhold {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    line-height: 1;
   }
   h1 {
     text-align: center;
@@ -81,7 +82,7 @@ footer {
 
 .footerindhold {
   background-color: #1b361f;
-  color: #caffae;
+  color: #ffffff;
   border: #3cc048;
   display: flex;
   justify-content: space-between;
@@ -94,7 +95,7 @@ footer {
 }
 
 .footerindhold h2 {
-  color: #caffae;
+  color: #ffffff;
 }
 
 .footerindhold ul {

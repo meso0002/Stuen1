@@ -8,24 +8,29 @@
     <link rel="icon" type="image/png" href="favicon1/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="favicon1/favicon.svg" />
     <link rel="shortcut icon" href="favicon1/favicon.ico" />
+    <link rel="stylesheet" href="/css/custom.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon1/apple-touch-icon.png" />
     <link rel="manifest" href="favicon1/site.webmanifest" />
     <title>Virksomhedssite</title>
   </head>
   <body>
     <main>
-      <nav class="navbar">
-        <div class="logo">
-          <img src="logo_stuen.png" alt="logo" />
-        </div>
-        <ul>
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="priser.html">Priser</a></li>
-          <li><a href="omos.html">Om os</a></li>
-          <li><a href="produkter.html">Produkter</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </nav>
+      <header>
+        <nav>
+          <ul class="navbar">
+            <li class="logo">
+              <a href="index.html"><img src="/IMG/logo_stuen.png" alt="logo" /></a>
+            </li>
+            <li><a href="priser.html">PRISER</a></li>
+            <li><a href="omos.html">OM OS</a></li>
+            <li><a href="produkter.html">PRODUKTER</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+            <li class="cta-button">
+              <a href="#"><img src="/icons/CTA (1).svg" alt="CTA" /></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
       <section class="combo1">
         <img src="IMG/mødos.png" alt="Butik" />
@@ -43,26 +48,27 @@
       <section class="personale">
         <div class="person">
           <div class="img_cirkel">
-            <img src="IMG/oddi.png" alt="Oddi" />
+            <img id="Oddi1" src="IMG/oddi.png" alt="Oddi" />
           </div>
           <h3>ODDI</h3>
           <p>
-            Jeg hedder Hörður Freyr Harðarson, 33 år og jeg er fra Island. De sidste knap 9 år har jeg arbejdet fuldtid som frisør i København efter at have arbejdet på Island, hvor jeg også fuldførte min fire årige frisøruddannelse. Gennem mit
-            professionelle virke har jeg været privilegeret ved at arbejde hos nogle af de mest prestigefyldte saloner i både Reykjavik og København. Jeg har fungeret som selvstændig frisør i 13 år, og har derfor oparbejdet mig en solid
-            erhvervserfaring, en loyal kundegruppe samt en stærk forståelse for samtlige kommercielle og forretningsmæssige aspekter af frisørfaget. Personligt er jeg enormt struktureret og sætter stor stolthed i mit arbejde. Jeg har gennem årene
-            lært at opbygge en stærk relation til alle mine faste kunder. Samtidig har jeg savnet at kunne drive min helt egen frisørsalon.
+            Jeg hedder Hörður Freyr Harðarson, 33 år og jeg er fra Island. De sidste knap 9 år har jeg arbejdet fuldtid som frisør i København efter at have arbejdet på Island, hvor jeg også fuldførte min fire årige frisøruddannelse. <br />
+            <br />Gennem mit professionelle virke har jeg været privilegeret ved at arbejde hos nogle af de mest prestigefyldte saloner i både Reykjavik og København. Jeg har fungeret som selvstændig frisør i 13 år, og har derfor oparbejdet mig en
+            solid erhvervserfaring, en loyal kundegruppe samt en stærk forståelse for samtlige kommercielle og forretningsmæssige aspekter af frisørfaget. <br /><br />Personligt er jeg enormt struktureret og sætter stor stolthed i mit arbejde. Jeg
+            har gennem årene lært at opbygge en stærk relation til alle mine faste kunder. Samtidig har jeg savnet at kunne drive min helt egen frisørsalon.
           </p>
         </div>
         <div class="person">
           <div class="img_cirkel">
-            <img src="IMG/ivan.png" alt="Ivan" />
+            <img id="Ivan1" src="IMG/ivan.png" alt="Ivan" />
           </div>
-          <h3>IVAN</h3>
+          <h3 id="Ivan1">IVAN</h3>
           <p>
-            Mit navn er Ivan Jugovic, oprindeligt fra Serbien, men min familie flyttede til Island, da jeg var 4 år. Min rejse som frisør begyndte i mine forældres garage, da jeg var 15 år. De sidste seks år har jeg arbejdet professionelt i saloner
-            og barbershops i både København og Island. Med over 10 års erfaring i branchen har jeg udviklet en dyb forståelse for håndværket. Ved siden af mit arbejde som frisør driver jeg en virksomhed, hvor vi former surfboards, og jeg DJ'er i
-            weekenderne. Det er vigtigt for mig at lytte til mine kunder og skabe den bedste form og oplevelse for dem – både når det gælder surfboards og frisurer. I min fritid elsker jeg at rejse og tager ofte mine klippemaskiner og sakse med mig.
-            Det har givet mig mulighed for at give folk forskellige slags klipninger, hvilket har udvidet min erfaring og viden betydeligt.
+            Mit navn er Ivan Jugovic, oprindeligt fra Serbien, men min familie flyttede til Island, da jeg var 4 år. <br />
+            Min rejse som frisør begyndte i mine forældres garage, da jeg var 15 år. De sidste seks år har jeg arbejdet professionelt i saloner og barbershops i både København og Island. <br /><br />
+            Med over 10 års erfaring i branchen har jeg udviklet en dyb forståelse for håndværket. Ved siden af mit arbejde som frisør driver jeg en virksomhed, hvor vi former surfboards, og jeg DJ'er i weekenderne. Det er vigtigt for mig at lytte
+            til mine kunder og skabe den bedste form og oplevelse for dem – både når det gælder surfboards og frisurer. <br /><br />I min fritid elsker jeg at rejse og tager ofte mine klippemaskiner og sakse med mig. Det har givet mig mulighed for at
+            give folk forskellige slags klipninger, hvilket har udvidet min erfaring og viden betydeligt.
           </p>
         </div>
         <div class="gizmo">
@@ -70,6 +76,7 @@
             <img src="IMG/gizmo.png" alt="Gizmo" />
           </div>
           <h3>GIZMO</h3>
+          <p class="gizmo">Gizmo er salongens firbenede ven og hygge-ekspert. Han elsker at være med, nyder kærlige klap og skaber en rolig og hjemlig stemning i salonen. En ægte krammehund, der får alle til at føle sig velkomne.</p>
         </div>
       </section>
 
