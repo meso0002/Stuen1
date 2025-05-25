@@ -64,14 +64,16 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 2em;
+  gap: 4.5em;
   padding: 2em;
+  padding-top: 3rem;
 }
 
 .combo1 img,
 .combo2 img {
-  width: 300px;
+  width: 450px;
   max-width: 100%;
+  padding-right: 2.5rem;
 }
 
 .tekst1,
@@ -81,6 +83,7 @@ main {
 
 .mødos {
   margin-bottom: 230px;
+  margin-top: 6rem;
 }
 
 .hvs {
@@ -92,7 +95,8 @@ main {
   display: flex;
   justify-content: center;
   gap: 4em;
-  padding: 3em 1em;
+  padding-top: 4em;
+  padding-bottom: 4rem;
   flex-wrap: wrap;
   text-align: center;
 }
@@ -105,12 +109,12 @@ main {
 }
 
 .person {
-  max-width: 250px;
+  max-width: 450px;
 }
 
 .img_cirkel {
-  width: 180px;
-  height: 180px;
+  width: 230px;
+  height: 230px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 1em;
@@ -119,9 +123,14 @@ main {
 }
 
 .img_cirkel img {
-  width: 100%;
-  height: 100%;
+  width: 230px;
+  height: 230px;
   object-fit: cover;
+}
+.gizmo {
+  margin-left: 14rem;
+  margin-right: 14rem;
+  margin-top: 0rem;
 }
 
 /* Footer */
@@ -158,7 +167,7 @@ footer {
 
 .footerindhold {
   background-color: #1b361f;
-  color: #caffae;
+  color: #ffffff;
   border: #3cc048;
   display: flex;
   justify-content: space-between;
@@ -171,7 +180,7 @@ footer {
 }
 
 .footerindhold h2 {
-  color: #caffae;
+  color: #ffffff;
 }
 
 .footerindhold ul {
