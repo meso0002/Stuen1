@@ -4,12 +4,12 @@
 }
 @font-face {
   font-family: font2;
-  src: url(/fonts/PressStart2P-Regular.ttf);
+  src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
 
 @font-face {
   font-family: font3;
-  src: url(/fonts/RobotoMono-VariableFont_wght.ttf);
+  src: url(fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
 }
 
 img {
@@ -47,7 +47,6 @@ header {
 main {
   font-family: font3;
   background-color: #d0dab8;
-  padding-bottom: 30px;
 }
 
 h1 {
@@ -62,7 +61,7 @@ footer {
 
 .footerindhold {
   background-color: #1b361f;
-  color: #ffffff;
+  color: #caffae;
   border: #3cc048;
   display: flex;
   justify-content: space-between;
@@ -73,21 +72,8 @@ footer {
 .footerindhold > div {
 }
 
-.kontaktoplysninger {
-  width: 29%;
-}
-
-.logo {
-  max-width: 40px;
-  max-height: 40px;
-  margin-left: 40px;
-}
-
-.åbningstider {
-  width: 40%;
-}
 .footerindhold h2 {
-  color: #ffffff;
+  color: #caffae;
 }
 
 .footerindhold ul {
@@ -99,7 +85,6 @@ footer {
   font-family: font3;
   border: #3cc048 solid 7px;
   border-radius: 8px;
-  color: #ffffff;
 }
 
 footer {
@@ -130,9 +115,4 @@ footer {
 .CTA img {
   height: auto;
   max-height: 50px;
-  margin-left: 40px;
-}
-
-.cta-button {
-  margin-left: 70px;
 }
