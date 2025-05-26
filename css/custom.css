@@ -109,3 +109,14 @@ main {
 .navbar img {
   width: 100%;
 }
+
+@media (width<500px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerindhold {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -116,16 +116,15 @@ main {
   width: 230px;
   height: 230px;
   border-radius: 50%;
-  overflow: hidden;
   margin: 0 auto 1em;
   border: 5px solid limegreen;
   box-shadow: 0 0 20px #00ff00;
 }
 
 .img_cirkel img {
-  width: 230px;
-  height: 230px;
-  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
 }
 .gizmo {
   margin-left: 14rem;
@@ -222,4 +221,11 @@ footer {
 .CTA img {
   height: auto;
   max-height: 50px;
+}
+
+@media (width<500px) {
+  .tekst1,
+  .tekst2 {
+    max-width: 300px;
+  }
 }
