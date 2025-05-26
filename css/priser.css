@@ -47,7 +47,7 @@ li {
 .saksanimation {
   width: 100%;
   height: 35px;
-  background-image: url("/IMG/Group\ 10.svg");
+  background-image: url("../IMG/Group\ 10.svg");
   background-repeat: no-repeat;
   background-size: 90px; /* or 'cover' depending on desired size */
   background-position: 0 0;
@@ -61,7 +61,7 @@ li {
   object-fit: cover;
 }
 
-.cta-button{
+.cta-button {
   width: 100px;
 }
 @keyframes moving {
