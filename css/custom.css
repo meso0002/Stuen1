@@ -101,3 +101,11 @@ main {
   max-width: 40px;
   max-height: 40px;
 }
+.CTA {
+  max-width: 40px;
+}
+
+/* Logo i navbar*/
+.navbar img {
+  width: 100%;
+}
