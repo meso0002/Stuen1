@@ -40,6 +40,10 @@ header {
   padding: 20px 0;
 }
 
+.frisørtekst {
+  text-align: left;
+}
+
 .navbar {
   list-style: none;
   display: flex;
