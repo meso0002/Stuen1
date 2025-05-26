@@ -189,7 +189,8 @@ footer {
   margin: 0;
 }
 .allfooter {
-  font-family: font3;
+  /*font-family: font3;*/
+  font-family: Arial, sans-serif;
   border: #3cc048 solid 7px;
   border-radius: 8px;
 }

@@ -60,6 +60,10 @@ li {
 .prisfoto {
   object-fit: cover;
 }
+
+.cta-button{
+  width: 100px;
+}
 @keyframes moving {
   0% {
     background-position: 0 0;
